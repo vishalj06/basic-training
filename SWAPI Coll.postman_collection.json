@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "96c2cf5f-c42c-4855-9e06-9e4334369c08",
+		"name": "SWAPI Coll",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://swapi.co/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url1}}",
+					"host": [
+						"{{url1}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url1}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url1}}",
+					"host": [
+						"{{url1}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url1}}/people/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url1}}/people/",
+					"host": [
+						"{{url1}}"
+					],
+					"path": [
+						"people",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://swapi.co/api/planets/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://swapi.co/api/planets/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"planets",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://swapi.co/api/films/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://swapi.co/api/films/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"films",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://swapi.co/api/species/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://swapi.co/api/species/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"species",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://swapi.co/api/vehicles/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://swapi.co/api/vehicles/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"vehicles",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://swapi.co/api/starships/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://swapi.co/api/starships/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"starships",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SwapiAPI1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url1}}/people",
+					"host": [
+						"{{url1}}"
+					],
+					"path": [
+						"people"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
